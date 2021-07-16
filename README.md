@@ -1,3 +1,6 @@
+## warning
+此项目为存档项目，不再更新，请移步[TNTWeb-admin](https://github.com/tnfe/tntweb-admin)关注最新变化。
+
 <p align="center">
    <img width="460" src="https://raw.githubusercontent.com/fantasticsoul/assets/master/c2pro/c2pro-banner.png">
 </p>
