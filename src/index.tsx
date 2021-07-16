@@ -5,7 +5,7 @@ async function main() {
 
   // 初始化 icon 资源
   const { loadIconByUrl } = await import('./components/dumb/icons');
-  loadIconByUrl('xxxxx'); // 可提前远程拉取后再调用 loadIconByUrl
+  loadIconByUrl('https://at.alicdn.com/t/font_1239425_qzdgyf4x6j.js'); // 可提前远程拉取后再调用 loadIconByUrl
 
   // 准备菜单数据
   const prepareMenuDataMod = await import('./configs/remoteMenus/prepareMenuData');
