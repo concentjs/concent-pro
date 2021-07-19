@@ -21,7 +21,6 @@ export function isProdEnv() {
 
 let masterAppLoadedSetSignal: number = 0;
 export function setMasterAppLoadedSignal() {
-  // @ts-ignore
   window.__MASTER_APP_LOADED__ = true;
   masterAppLoadedSetSignal = 1;
 }
@@ -41,7 +40,6 @@ export function isSubApp() {
     return false;
   }
   // __MASTER_APP_LOADED__ 已被主应用设置为true了，当前站点一定是子应用
-  // @ts-ignore
   if (window.__MASTER_APP_LOADED__ === true) {
     return true;
   }

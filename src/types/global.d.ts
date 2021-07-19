@@ -10,3 +10,6 @@ declare global {
     [key: string]: any;
   }
 }
+
+// Adding this exports the declaration file which Typescript/CRA can now pickup:
+export { };

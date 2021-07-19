@@ -5,7 +5,6 @@ import * as msgService from 'services/message';
 import * as commonUtil from 'utils/common';
 import * as models from '../models';
 
-// @ts-ignore
 if (window.__MASTER_APP_LOADED__ === undefined) {
   setMasterAppLoadedSignal();
 }
