@@ -34,5 +34,4 @@ if (isSubApp() && process.env.REACT_APP_IS_LOCAL !== 'true') {
     alwaysRenderCaller: true,
     isStrict: true,
   });
-  cc.bindCcToWindow('');
 };
